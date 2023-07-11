@@ -1,0 +1,123 @@
+@font-face {
+    font-family: Caprasimo-Regular;
+    src: url(font/Caprasimo-Regular.ttf);
+}
+
+:root {
+    --blue-dark: #0E2954;
+    --blue-dark1: #1F6E8C;
+    --blue-dark2: #2E8A99;
+    --blue-dark3: #E3F4F4;
+    --red: #B31312;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.red-color {
+    color: var(--red);
+}
+
+.body {
+    background-color: var(--blue-dark2);
+}
+
+.bg-Nav,
+.dropdown-menu {
+    background-color: var(--blue-dark1);
+    color: var(--blue-dark3);
+}
+
+.bg-header {
+    background-color: var(--blue-dark);
+}
+
+.mt-8 {
+    margin-top: 8rem;
+}
+
+.mx-8 {
+    margin: 0 8rem 0 8rem;
+}
+
+.fs-7 {
+    font-size: 1rem;
+}
+
+/* pepsi-style */
+
+
+.text-header h1 {
+    color: var(--red);
+    font-family: "Caprasimo-Regular";
+}
+
+.text-header p {
+    color: var(--blue-dark3);
+}
+
+.text-header button {
+    background-color: var(--blue-dark1);
+}
+
+.text-header button:hover {
+    background-color: var(--blue-dark2);
+}
+
+.main-style {
+
+    color: rgb(0, 0, 0);
+}
+
+
+
+.img-header {
+    width: 100%;
+}
+
+/*  */
+
+
+
+.font:nth-child(1) {
+    color: red;
+
+}
+
+.font:nth-child(2) {
+    color: blue;
+}
+
+.font:nth-child(3) {
+    color: green;
+}
+
+.card-bg {
+    height: 10%;
+    background-color: #0e192c;
+    color: var(--blue-dark3);
+}
+
+.bg-section {
+    background-color: var(--blue-dark);
+    color: var(--blue-dark3);
+}
+
+.card-style {
+    background-color: var(--blue-dark1);
+    color: var(--blue-dark3);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-style h4 {
+    color: var(--red);
+    font-weight: bold;
+}
+
+.card-style a {
+    background-color: var(--blue-dark);
+    color: var(--blue-dark3);
+}
